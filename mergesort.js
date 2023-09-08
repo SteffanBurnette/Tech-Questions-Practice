@@ -14,7 +14,7 @@ function mergeSorted(ary1, ary2) {
     const sortedAry = [];
     let i = 0;
     let j = 0;
-
+  
     //Adds the values on order depending on the arrays lengths
     while (i < ary1.length && j < ary2.length) {
         //if the value in array1 is less than the value in array2 then it will be added first
