@@ -28,7 +28,7 @@ function mergeSorted(ary1, ary2) {
     }
 
     // If there are remaining elements in ary1, add them to sortedAry
-    while (i < ary1.length) {
+    while (i < ary1.length) { 
         sortedAry.push(ary1[i]);
         i++;
     }
