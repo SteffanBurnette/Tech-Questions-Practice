@@ -23,7 +23,8 @@ function mergeSorted(ary1, ary2) {
             i++;
         } else {
             sortedAry.push(ary2[j]);
-            j++;     
+            j++;         
+            //testing
         }         
     }                           
 
