@@ -45,3 +45,7 @@ function mergeSorted(ary1, ary2) {
 
 
 console.log("This is the sorted ary: "+ mergeSorted(ary1, ary2));
+
+
+
+
