@@ -110,3 +110,18 @@ function firstRepeat(str) {
   
 
 console.log(firstRepeat(str));
+
+//How many successors does the bst tree have
+//Will want to keep count of the number of sub trees found
+//Can use an stack like array(pop/push) to store the sub trees or a counter to store the count
+//Might be better to use recursion instead of while loop here
+function subBts(tree){
+    let count=0;
+
+    while(tree){
+        if(tree.left||tree.right){
+            count++;
+        }
+    }
+
+}
