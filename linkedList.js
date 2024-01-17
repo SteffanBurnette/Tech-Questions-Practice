@@ -71,7 +71,7 @@ function insertBetweenList(link,val){
     }
 
 }
-
+     
 
 //Creates linked list structure
 const link=new linkedList(5);
